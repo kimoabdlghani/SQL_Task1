@@ -223,7 +223,12 @@ drop table Users
 --WHERE parent_object_id = OBJECT_ID('Users') 
 --AND type IN ('C', 'F', 'PK', 'UQ', 'D');
 
-
+--5
+    --ALTER TABLE order_product 
+--DROP CONSTRAINT FK__order_pro__produ__46E78A0C;
+--ALTER TABLE suppleir_product 
+--DROP CONSTRAINT FK__suppleir___produ__49C3F6B7;
+delete from product where name is not null and name <>'Null';
 
 
 
