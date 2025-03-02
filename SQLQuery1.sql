@@ -239,7 +239,7 @@ WHERE O.OrderID > 0;
 
 
 --2
-
+-- i cantn't do this 
 delete O
 SET O. = GETDATE()
 FROM [Order] O
